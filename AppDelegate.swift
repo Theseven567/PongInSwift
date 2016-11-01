@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  PongNew
+//  Pong
 //
-//  Created by Егор on 11/1/16.
+//  Created by Егор on 10/12/16.
 //  Copyright © 2016 Егор. All rights reserved.
 //
 

@@ -1,8 +1,8 @@
 //
 //  GameViewController.swift
-//  PongNew
+//  Pong
 //
-//  Created by Егор on 11/1/16.
+//  Created by Егор on 10/12/16.
 //  Copyright © 2016 Егор. All rights reserved.
 //
 
@@ -11,13 +11,18 @@ import SpriteKit
 import GameplayKit
 
 class GameViewController: UIViewController {
+    
 
+    var difficultyLevels = [String]()
+    
     override func viewDidLoad() {
+        difficultyLevels = ["Easy", "Normal", "Hard"]
+        
         super.viewDidLoad()
         
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
+            if let scene = SKScene(fileNamed: "Menu") {
                 // Set the scale mode to scale to fit the window
                 scene.scaleMode = .aspectFill
                 
